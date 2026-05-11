@@ -1,0 +1,15 @@
+
+# API keys / 
+includes/chatbot/config.local.php
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+.vscode/
+.idea/
+
+# PHP / Composer
+vendor/
+composer.lock
