@@ -30,7 +30,7 @@ return [
             ],
         ],
 
-
+        // Sadness/Low mood
         'sadness' => [
             'phrases'  => ['feel low', 'feel sad', 'feel down', 'feeling low', 'feeling sad', 'feeling down', 'feeling blue', 'low mood'],
             'keywords' => ['sad', 'depressed', 'depression', 'unhappy', 'down', 'blue'],
@@ -43,7 +43,7 @@ return [
             ],
         ],
 
-
+        //Anger/Frustration
         'anger' => [
             'phrases'  => ['so frustrated', 'so annoyed', 'losing my temper', 'wound up', 'fed up'],
             'keywords' => ['angry', 'anger', 'furious', 'frustrated', 'mad', 'irritated', 'rage'],
@@ -83,6 +83,7 @@ return [
             ],
         ],
 
+
         'meditation' => [
             'phrases'  => ['start meditating', 'how to meditate', 'how do i meditate', 'meditation app', 'mindfulness practice', 'breathing exercise'],
             'keywords' => ['meditate', 'meditation', 'mindfulness', 'mindful'],
@@ -95,7 +96,7 @@ return [
             ],
         ],
 
-
+        
 
         'gratitude' => [
             'phrases'  => ['gratitude practice', 'feel grateful', 'feeling grateful'],
@@ -133,6 +134,7 @@ return [
 
                 "Sustained focus generally requires three things: enough sleep, clear priorities, and minimised distractions. Techniques like the Pomodoro method (25 minutes focused work, 5 minutes break) can help structure work sessions.\n\nFor longer-term motivation, consistency in basic habits (sleep, food, movement) tends to matter more than willpower.",
             ],
+        ],
 
 
         'happiness' => [
@@ -169,6 +171,7 @@ return [
             ],
         ],
 
+
         'journal' => [
             'phrases'  => ['write in journal', 'journal entry', 'start journalling', 'start journaling', 'how to journal', 'how do i journal'],
             'keywords' => ['journal', 'journalling', 'journaling', 'diary'],
@@ -199,6 +202,8 @@ return [
                 "Glad it was helpful. I'm here if you have more questions.",
                 "You're welcome. Feel free to ask about other wellness topics or app features any time.",
             ],
+        ],
+
 
         'goodbye' => [
             'phrases'  => ['talk later', 'see you', 'gotta go'],
@@ -238,7 +243,6 @@ return [
         "Got it. Is there anything else I can help with?",
     ],
 
-    
     'short_no' => [
         "No problem. Is there a different topic I can help with?",
         "Understood. Let me know what you'd like to ask about instead.",

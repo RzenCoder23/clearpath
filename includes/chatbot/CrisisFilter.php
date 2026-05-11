@@ -1,22 +1,23 @@
 <?php
 
- /*** CONTENT WARNING ⚠️
-* 
-* There may be explicit references to suicide and self-harm in this file.
-* The crisis filter uses ideation to match patterns.
+<?php
 
- * * GOAL: User safety and content moderation
-* CONTEXT: Implementation of academic proof-of-concept
-
- * USAGE: Redirecting users to expert services using pattern matching
- * * In content moderation systems, these expressions are standard procedure.
- 
-* (Crisis hotlines, social media sites, mental health services).
- * * Vaidyam et al. (2019) inform this method for academic evaluation.
-* and illustrates protective safety features in mental health technologies.
- [ ]
-
-*//
+/**
+ * ClearPath Crisis Filter
+ * 
+ * CONTENT WARNING: This file contains explicit phrases related to 
+ * self-harm and suicidal ideation for pattern matching purposes only.
+ * 
+ * PURPOSE: Content moderation and user safety
+ * CONTEXT: Academic proof-of-concept implementation
+ * USAGE: Pattern matching to redirect users to professional services
+ * 
+ * These phrases are standard in content moderation systems (social media 
+ * platforms, crisis helplines, mental health services). This implementation 
+ * is informed by Vaidyam et al. (2019) and demonstrates defensive safety 
+ * mechanisms in mental health technology.
+ * @reference Vaidyam, A.N. et al. (2019)
+ */
 
 
 
